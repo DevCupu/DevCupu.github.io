@@ -1,0 +1,293 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    body {
+        font-size: 11px;
+    }
+}
+
+/* Tablet Styles (Lebar Layar antara 768px dan 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Desktop Styles (Lebar Layar 992px ke atas) */
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.container .jumbotron {
+    font-family: 'Righteous', cursive;
+    margin: 20px auto;
+    letter-spacing: 3;
+    text-align: center;
+    background-color: rgb(40, 153, 153);
+    padding: 50px;
+    margin-bottom: 30px;
+    color: white;body {
+        font-size: 16px;
+        margin: 0;
+        padding: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    /* Mobile Styles */
+    @media (max-width: 767px) {
+        body {
+            font-size: 11px;
+        }
+    }
+    
+    /* Tablet Styles (Lebar Layar antara 768px dan 991px) */
+    @media (min-width: 768px) and (max-width: 991px) {
+        body {
+            font-size: 16px;
+        }
+    }
+    
+    /* Desktop Styles (Lebar Layar 992px ke atas) */
+    @media (min-width: 992px) {
+        body {
+            font-size: 18px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    
+    }
+    
+    .container .jumbotron {
+        font-family: 'Righteous', cursive;
+        margin: 20px auto;
+        letter-spacing: 3;
+        text-align: center;
+        background-color: rgb(40, 153, 153);
+        padding: 50px;
+        margin-bottom: 30px;
+        color: white;
+    }
+    
+    .container .nav a {
+        color: #000000;
+    }
+    
+    .container h2 {
+        font-weight: 400;
+    }
+    
+    .tab-content h4 {
+        margin-top: 20px;
+    }
+    
+    .tab-pane {
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    
+    .header-home {
+        text-align: center;
+        color: rgb(23, 189, 255);
+        margin-top: 30px;
+    }
+    
+    .p-home {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    
+    .header-luas,
+    .header-keliling {
+        margin-top: 30px;
+        text-align: center;
+        color: #333;
+    }
+    
+    /* Form style */
+    form {
+        margin-top: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    input {
+        border-radius: 20px;
+        border: 1px solid #c0c0c0;
+        outline: 0 !important;
+        box-sizing: border-box;
+        padding: 12px 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    button {
+        font-family: monospace;
+        background-color: #f3f7fe;
+        color: rgb(40, 153, 153);
+        border: none;
+        border-radius: 8px;
+        width: 100px;
+        height: 45px;
+        transition: .3s;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    
+    button:hover {
+        background-color: rgb(40, 153, 153);
+        box-shadow: 0 0 0 5px #ffff;
+        color: #fff;
+      
+    }
+    
+    /* Hasil */
+    h4 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+        color: rgb(40, 153, 153);
+    }
+    
+    /* footer */
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+.container .nav a {
+    color: #000000;
+}
+
+.container h2 {
+    font-weight: 400;
+}
+
+.tab-content h4 {
+    margin-top: 20px;
+}
+
+.tab-pane {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.header-home {
+    text-align: center;
+    color: rgb(23, 189, 255);
+    margin-top: 30px;
+}
+
+.p-home {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.header-luas,
+.header-keliling {
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+}
+
+/* Form style */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    outline: 0 !important;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: monospace;
+    background-color: #f3f7fe;
+    color: rgb(40, 153, 153);
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .3s;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+button:hover {
+    background-color: rgb(40, 153, 153);
+    box-shadow: 0 0 0 5px #ffff;
+    color: #fff;
+  
+}
+
+/* Hasil */
+h4 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(40, 153, 153);
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}

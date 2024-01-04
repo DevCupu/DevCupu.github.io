@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif:ital,wght@0,600;1,900&family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome To KATIK ENJOYY!!</h1>
+        <p>
+          Hai Teman-teman ini adalah Web Apps KATIK!<br />
+          ( Kalkulator Matematika ) yang akan membantu teman-teman untuk
+          menghitung nilai luas dan keliling bangun datar khususnya  bangun datar Segitiga!
+        </p>
+      </div>
+      <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="home-tab"
+            data-bs-toggle="tab"
+            href="#home"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="menu1-tab"
+            data-bs-toggle="tab"
+            href="#luas-segitiga"
+            >Luas Segitiga</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="menu2-tab"
+            data-bs-toggle="tab"
+            href="#keliling-segitiga"
+            >Keliling Segitiga</a
+          >
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade show active">
+          <h3 class="header-home">Hello :)</h3>
+          <p class="p-home">
+            Silahkan pilih menu di atas yang ingin anda gunakan untuk menghitung nilai luas ataupun keliling dari segitiga!
+          </p>
+          <div class="img-home d-flex justify-content-center">
+            <img
+              src="https://img.freepik.com/free-vector/calculator-concept-illustration_114360-1239.jpg?w=826&t=st=1704330666~exp=1704331266~hmac=5e1f34b7a4f7403eaf93438f4119f117bb3a1455f9ab54fbd7327b21b12a867f"
+              class="img-"
+              height="500"
+            />
+          </div>
+        </div>
+
+        <div id="luas-segitiga" class="tab-pane fade">
+          <h2 class="header-luas">Menghitung Luas Segitiga</h2>
+          <div class="d-flex justify-content-center">
+          <img src="https://asset.kompas.com/data/photo/2021/02/15/602a5d7fbaaa0.jpg" class="img-fluid" alt="">
+        </div>
+          <label for="tinggi">Tinggi:</label>
+          <input
+            type="number"
+            id="tinggi"
+            placeholder="Masukkan tinggi segitiga"
+          />
+
+          <label for="alas">Alas:</label>
+          <input type="number" id="alas" placeholder="Masukkan alas segitiga" />
+
+          <button onclick="hitungLuas()">Hitung Luas</button>
+          <button type="reset" onclick="resetHasilLuas()">Reset</button>
+
+          <h4 id="hasilLuas"></h4>
+        </div>
+        <div id="keliling-segitiga" class="tab-pane fade">
+          <h2 class="header-keliling">Menghitung Keliling Segitiga</h2>
+          <div class="d-flex justify-content-center">
+            <img src="https://pulpent.com/wp-content/uploads/2021/08/Rumus-Segitiga.jpg" class="img-fluid" alt="">
+          </div>
+
+          <form id="keliling-segitiga">
+            <label for="sisi1">Sisi 1:</label>
+            <input
+              type="number"
+              id="sisi1"
+              placeholder="Masukkan panjang sisi 1"
+              required
+            />
+
+            <label for="sisi2">Sisi 2:</label>
+            <input
+              type="number"
+              id="sisi2"
+              placeholder="Masukkan panjang sisi 2"
+              required
+            />
+
+            <label for="sisi3">Sisi 3:</label>
+            <input
+              type="number"
+              id="sisi3"
+              placeholder="Masukkan panjang sisi 3"
+              required
+            />
+
+            <button type="button" onclick="hitungKeliling()">
+              Hitung Keliling
+            </button>
+            <button type="reset" onclick="resetHasilKeliling()">Reset</button>
+          </form>
+
+          <h4 id="hasilKeliling"></h4>
+        </div>
+      </div>
+    </div>
+
+    <footer>&copy; 2024 - Ibnu Tamiyya | <span id="tahun"></span></footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
